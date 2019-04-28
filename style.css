@@ -39,7 +39,7 @@ h1 {
 .logo img {
 	position: relative;
 	align-content: center;
-	max-width: 50px;
+    max-width: 50px;
 }
 
 nav {
@@ -87,7 +87,7 @@ nav ul li a {
 		background: #000;
 	}
 	nav.black ul {
-		background: %000;
+		background: #000;
 	}
 	.showing {
 		max-height: 20em;
@@ -221,4 +221,15 @@ nav ul li a {
 	.button {
 		top: 70%;
 	}
+}
+
+/*--------------CONTENT--------------*/
+.content {
+    position: absolute;
+    z-index: 3;
+    width: 90%;
+    margin: 4em auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
 }
